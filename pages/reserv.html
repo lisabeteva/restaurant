@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Бронь</title>
+</head>
+<link rel="stylesheet" href="/styles/reservstyle.css">
+
+<body>
+    <div class="reservation">
+        <div class="container">
+            <div class="reserv-title">
+                <span>Забронируйте</span>&nbsp;столик
+            </div>
+
+        </div>
+
+        <div class="container">
+             <div class="reserv-form">
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <p>Для поисковика: <input name="q" type="Text" value="search"></p>
+                <p>На чьё имя забронировать: <input name="reserv_name" size=20 type="Text" value="Иван"></p>
+                <p>Число гостей: <input name="number" size=20 type="Number" value="0"></p>
+                <p>Адрес ресторана:
+                    <input name="place" type="Radio" value="sereb">ул.Серебряническая наб.,29
+                    <input checked name="place" type="Radio" value="pokrovka">ул.Покровка, 26/1
+                </p>
+                <p>Дополнительные условия:
+                    <input checked name="experience" type="Checkbox" value="10">Нужно поздравление от персонала (только в день рождения)
+                    <input checked name="experience" type="Checkbox" value="20">Нужна ваза для цветов
+                    <input checked name="experience" type="Checkbox" value="30">Нужен детский стульчик
+                </p>
+                <p>Посещали ли вы ресторан ранее?
+                    <select name="languages">
+                        <OPTION value="No">Нет, в первый раз</OPTION>
+                        <OPTION value="Yes">Да, уже посещал (-а)</OPTION>
+                    </select>
+                </p>
+                <p> Комментарий к брони:
+                    <br>
+                    <TEXTAREA cols=80 name="textarea" rows=4>Для заметок</TEXTAREA>
+                </p>
+
+                <p>Дата: <input name="user_date" type="date" value='2000-01-01'></p>
+                <p>Пароль: <input name="password" size=9 type="Password" value="123"></p>
+                <p>Название файла: <input name="000_file_name" size='30' type="Техт" value="Н_ОW_Г_326510_1_Ivanov.txt">
+                </p>
+                <p> Тип записи в файл:<select name="010_mode">
+                    <OPTION value="a">a - дозаписать в файл</OPTION>
+                    <OPTION value="w">w - очисить файл и записать в файл</OPTION>
+                </select></p>
+                <input name="function" type="hidden" value="page">
+                <input name="page_id" type="hidden" value="3">
+                <p>
+                    <input name="Reset" type="Reset" value="Обновить">
+                    <input name="submit" type="Submit" value="Отправить">
+                </p>
+            </form>
+
+             </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                 <div class="tomainpage">
+                   <a class="to-items" href="index.html">Вернуться на главную</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
