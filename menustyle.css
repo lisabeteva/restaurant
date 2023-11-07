@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#e4d6b8;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.dishes-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.dishes-title>span {
+    color:#e7b750
+}
+
+.navigation {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.variant {
+    text-decoration: none;
+    color: #2e1f14;
+}
+
+.break-table {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.syrnik {
+    width: 140px;
+    height: 120px;
+
+}
+
+.lunch-table {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.main-title {
+    font-family: 'Tinos', serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+.salad {
+    width: 230px;
+    height: 140px;
+}
+
+.poke {
+    width: 150px;
+    height: 140px; 
+}
+
+.strelka {
+    position: absolute;
+    z-index: 0;
+    bottom: -2500px;
+    right: 20px;
+}   
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #bd994c;
+    color: #fff;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-copyright {
+    color: #947560;
+}
+
+.tomainpage {
+    color: #947560;
+}
+
+.to-items {
+    font-family: 'Open Sans', sans-serif;
+    color: #2e1f14;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+    margin-left: 90px;
+}
+
+
+
+
