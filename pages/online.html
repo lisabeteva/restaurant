@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <title>Онлайн-заказ</title>
+</head>
+<link rel="stylesheet" href="/styles/onlinestyle.css">
+<body>
+<div class="online-order">
+    <div class="container">
+        <div class="online-title">
+            <span>Онлайн</span>-заказ
+        </div>
+
+        <div class="online-subtitle">
+            ЗАКАЖИТЕ ЗАВТРАК НА ДОМ!
+        </div>
+
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+          <input name="q" type="hidden" value="search">
+        <div class="online-table">
+            <table cellpadding="10px" border="4" align="center" width="75%">
+              <tr> <td>ПОЗИЦИЯ</td> <td>ЦЕНА</td> <td>КОЛИЧЕСТВО</td> <td>ЦЕНА ЗА ВСЁ</td> </tr>
+
+              <tr>
+                <td>Омлет</td>
+                <td><b id="cena_1">150</b>руб.</td>
+                <td><b onclick="plus(1)">[+]</b><b id="col_1">0</b>шт.<b onclick="minus(1)">[-]</b></td>
+                <td><b id="cenap_1">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Глазунья</td>
+                <td><b id="cena_2">150</b>руб.</td>
+                <td><b onclick="plus(2)">[+]</b><b id="col_2">0</b>шт.<b onclick="minus(2)">[-]</b></td>
+                <td><b id="cenap_2">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Скрембл</td>
+                <td><b id="cena_3">150</b>руб.</td>
+                <td><b onclick="plus(3)">[+]</b><b id="col_3">0</b>шт.<b onclick="minus(3)">[-]</b></td>
+                <td><b id="cenap_3">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Шакшука</td>
+                <td><b id="cena_4">150</b>руб.</td>
+                <td><b onclick="plus(4)">[+]</b><b id="col_4">0</b>шт.<b onclick="minus(4)">[-]</b></td>
+                <td><b id="cenap_4">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Каша овсяная</td>
+                <td><b id="cena_5">150</b> руб.</td>
+                <td><b onclick="plus(5)">[+]</b><b id="col_5">0</b>шт.<b onclick="minus(5)">[-]</b></td>
+                <td><b id="cenap_5">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Каша рисовая</td>
+                <td><b id="cena_6">150</b>руб.</td>
+                <td><b onclick="plus(6)">[+]</b><b id="col_6">0</b>шт.<b onclick="minus(6)">[-]</b></td>
+                <td><b id="cenap_6">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Сырники со сливочным соусом</td>
+                <td><b id="cena_7">350</b>руб.</td>
+                <td><b onclick="plus(7)">[+]</b><b id="col_7">0</b>шт.<b onclick="minus(7)">[-]</b></td>
+                <td><b id="cenap_7">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Русский завтрак</td>
+                <td><b id="cena_8">490</b>руб.</td>
+                <td><b onclick="plus(8)">[+]</b><b id="col_8">0</b>шт.<b onclick="minus(8)">[-]</b></td>
+                <td><b id="cenap_8">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Американский завтрак</td>
+                <td><b id="cena_9">490</b>руб.</td>
+                <td><b onclick="plus(9)">[+]</b><b id="col_9">0</b>шт.<b onclick="minus(9)">[-]</b></td>
+                <td><b id="cenap_9">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Английский завтрак</td>
+                <td><b id="cena_10">490</b>руб.</td>
+                <td><b onclick="plus(10)">[+]</b><b id="col_10">0</b>шт.<b onclick="minus(10)">[-]</b></td>
+                <td><b id="cenap_10">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Эспрессо</td>
+                <td><b id="cena_11">90</b>руб.</td>
+                <td><b onclick="plus(11)">[+]</b><b id="col_11">0</b>шт.<b onclick="minus(11)">[-]</b></td>
+                <td><b id="cenap_11">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Американо</td>
+                <td><b id="cena_12">90</b>руб.</td>
+                <td><b onclick="plus(12)">[+]</b><b id="col_12">0</b>шт.<b onclick="minus(12)">[-]</b></td>
+                <td><b id="cenap_12">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Капучино</td>
+                <td><b id="cena_13">110</b>руб.</td>
+                <td><b onclick="plus(13)">[+]</b><b id="col_13">0</b>шт.<b onclick="minus(13)">[-]</b></td>
+                <td><b id="cenap_13">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Латте</td>
+                <td><b id="cena_14">120</b>руб.</td>
+                <td><b onclick="plus(14)">[+]</b><b id="col_14">0</b>шт.<b onclick="minus(14)">[-]</b></td>
+                <td><b id="cenap_14">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Чай</td>
+                <td><b id="cena_15">90</b>руб.</td>
+                <td><b onclick="plus(15)">[+]</b><b id="col_15">0</b>шт.<b onclick="minus(15)">[-]</b></td>
+                <td><b id="cenap_15">0</b>руб.</td>
+              </tr>
+
+              <tr>
+                <td>Фреш</td>
+                <td><b id="cena_16">220</b>руб.</td>
+                <td><b onclick="plus(16)">[+]</b><b id="col_16">0</b>шт.<b onclick="minus(16)">[-]</b></td>
+                <td><b id="cenap_16">0</b>руб.</td>
+              </tr>
+            
+            </table>
+        
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <div class="result">
+            ИТОГО: <b id="itog">0</b>руб.
+        </div>
+    </div>
+   
+    
+    <p>
+      <input name="Reset" type="Reset" value="Обновить">
+      <input name="submit" type="Submit" value="Отправить">
+    </p>
+  </form>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="footer-row">
+            <div class="footer-copyright">
+             <div class="tomainpage">
+               <a class="to-items" href="index.html">Вернуться на главную</a>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+
+<script src="/js/online.js"></script>
+
+</html>
