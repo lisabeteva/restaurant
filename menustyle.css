@@ -8,6 +8,10 @@ body {
     margin: 0px 166px;
 }
 
+.selected {
+    color:crimson  
+}
+
 .nav-item {
     color: #fff;
     text-decoration: none;
