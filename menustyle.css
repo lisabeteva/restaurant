@@ -8,6 +8,19 @@ body {
     margin: 0px 166px;
 }
 
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-right: 25px;
+}
+
+.nav-item:hover {
+    color:crimson 
+}
+
 .dishes-title {
     font-family: 'Tinos', serif;
     font-size: 54px;
