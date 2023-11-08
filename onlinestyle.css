@@ -8,6 +8,18 @@ body {
     margin: 0px 166px;
 }
 
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-right: 25px;
+}
+
+.nav-item:hover {
+    color:crimson 
+}
 .online-title {
     font-family: 'Tinos', serif;
     font-size: 54px;
